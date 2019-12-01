@@ -5058,10 +5058,63 @@
       "links": {},
       "address": "0x78bb40b3F6D17a240f1925eD6D6dA4738e77de57",
       "transactionHash": "0x2840be330ed516051607d82b1bd572cd421aaf4062ea4c5fc65c6a11c0492b85"
+    },
+    "1575185510238": {
+      "events": {
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "_to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event",
+          "signature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+        },
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "_owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "name": "_spender",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "_value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event",
+          "signature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925"
+        }
+      },
+      "links": {},
+      "address": "0xb1F694387588F1a109B5D8A5681715b28f20b13E",
+      "transactionHash": "0x51e8a7522dc89826b40ec08a09bd25c55298ca05ae87a3bfff4a9ca0fd7133ac"
     }
   },
   "schemaVersion": "3.0.17",
-  "updatedAt": "2019-11-27T13:46:39.988Z",
+  "updatedAt": "2019-12-01T07:34:48.298Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
